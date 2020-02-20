@@ -10,3 +10,4 @@ var myFullpage = new fullpage('#fullpage', {
 
 //methods
 fullpage_api.setAllowScrolling(true);
+fullpage_api.setAutoScrolling(true);
