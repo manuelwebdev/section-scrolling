@@ -12,18 +12,23 @@
 </head>
 
 <body>
-
-
     <div id="fullpage">
         <div class="section fp-auto-height sec1">
-            <div class="secTitle1">
+            <div class="secTitle1" id="main">
                 <div class="content">
                     <h1>Section 1</h1>
                     <h2>Welcome to my project</h2>
-                    <button>Learn More</button>
+                    <button style="font-size:30px;cursor:pointer" onclick="openSide()" id="one">Learn More</button>
                 </div>
-
             </div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeSide()">&times;</a>
+        
+                <h1 id="name">
+                </h1>
+        
+                <div id="another"></div>
+            </div> 
         </div>
         <div class="section fp-auto-height sec2">
             <div class="secTitle2">
@@ -59,7 +64,7 @@
     </div>
 
 
-
+    <script type="text/javascript" src="js/sidePanel.js"></script>
     <script type="text/javascript" src="js/fullpage.min.js"></script>
 
     <script type="text/javascript" src="js/main.js"></script>
