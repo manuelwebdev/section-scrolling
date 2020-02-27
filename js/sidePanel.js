@@ -26,10 +26,14 @@ const openSide = () => {
     document.getElementById("mySidenav").style.boxSizing = "border-box";
     document.getElementById("main").style.marginRight = "75%";
     document.getElementById("main").style.width = "25%";
+    document.getElementById("main").style.transition = "0.5s";
     document.getElementById("main").style.boxSizing = "border-box";
+    document.getElementById("mySidenav").style.padding = "60px 1em 1em 3em";
     // document.querySelector('name1').textContent = data.proj1.name;
 }
 const closeSide = () => {
     document.getElementById("mySidenav").style.width = "0";
-    // document.getElementById("main").style.marginRight = "0";
+    document.getElementById("mySidenav").style.padding = "0";
+    document.getElementById("main").style.marginRight = "0";
+    document.getElementById("main").style.width = "100%";
 }

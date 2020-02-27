@@ -11,7 +11,8 @@ body {
   background-color: rgb(116, 116, 116);
   overflow-x: hidden;
   transition: 0.5s;
-  padding: 60px 1em 1em 3em;
+//   padding: 60px 1em 1em 3em;
+  box-sizing: border-box;
 
   a {
     padding: 16px 8px 8px 32px;
@@ -32,20 +33,9 @@ body {
     margin-right: 50px;
   }
 
-  h1#name {}
-
-
-
-
-
-
-
-
-
-
+  h1#name {
+  }
 }
-
-
 
 #main {
   transition: margin-right 0.5s;
