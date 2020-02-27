@@ -30,10 +30,12 @@ const openSide = () => {
     document.getElementById("main").style.boxSizing = "border-box";
     document.getElementById("mySidenav").style.padding = "60px 1em 1em 3em";
     // document.querySelector('name1').textContent = data.proj1.name;
+    fullpage_api.setAllowScrolling(false);
 }
 const closeSide = () => {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("mySidenav").style.padding = "0";
     document.getElementById("main").style.marginRight = "0";
     document.getElementById("main").style.width = "100%";
+    fullpage_api.setAllowScrolling(true);
 }
