@@ -1,8 +1,8 @@
 var myFullpage = new fullpage('#fullpage', {
     //options here
     css3: false,
-	autoScrolling:false,
-    scrollHorizontally: true,
+	autoScrolling:true,
+    // scrollHorizontally: true,
     sectionsColor: ['rgba(#000000, 0)', '#4BBFC3', '#7BAABE', 'whitesmoke', '#000'],
     keyboardScrolling: true,
     navigation: true,
