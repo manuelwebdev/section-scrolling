@@ -1,0 +1,11 @@
+@import "../base/mixins";
+
+
+
+
+
+
+h1.panel {
+    @include h1;
+    margin: .7em 0;
+}

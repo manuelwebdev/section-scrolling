@@ -3,6 +3,7 @@ const data = {
     proj1: {
         name: "Project 1",
         another: "Volleyball"
+        // img: "",
     },
     proj2: {
         name: "Project 2",
@@ -15,7 +16,7 @@ const updatePage = (data) => Object.entries(data).forEach(([key, val]) => docume
 const init = () => {
     // updatePage(data.defaultData);
     document.querySelector("#one").addEventListener('click', () => updatePage(data.proj1));
-    // document.querySelector("#two").addEventListener('click', () => updatePage(data.data2));
+    document.querySelector("#two").addEventListener('click', () => updatePage(data.proj2));
 }
 document.addEventListener('DOMContentLoaded', init);
 
