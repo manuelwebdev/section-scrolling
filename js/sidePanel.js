@@ -2,12 +2,12 @@
 const data = {
     proj1: {
         name: "Project 1",
-        another: "Volleyball"
+        another: "Volleyball",
         // img: "",
     },
     proj2: {
         name: "Project 2",
-        another: "Potato chips"
+        another: "Potato chips",
     }
 };
 
@@ -40,3 +40,4 @@ const closeSide = () => {
     document.getElementById("main").style.width = "100%";
     fullpage_api.setAllowScrolling(true);
 }
+
